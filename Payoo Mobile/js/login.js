@@ -13,7 +13,7 @@ document.getElementById('button-login').addEventListener('click', function(event
     // Bad way to validate
     if(phoneNumber === '5' && pinNumber === '1234'){
         console.log('You are logged in');
-        window.location.href = './home.html';  
+        window.location.href = 'home.html';  
     }
     else{
         alert('Wrong Phone number or Pin')
